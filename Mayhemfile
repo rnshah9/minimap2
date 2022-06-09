@@ -1,6 +1,6 @@
-project: rnshah9/minimap2
+project: minimap2
 target: minimap2
 
 cmds:
-  - cmd: /repo/minimap2 -c @@ /repo/test/q2.fa
+  - cmd: /repo/minimap2 -c /test.fa /repo/test/q2.fa
     filepath: /test.fa

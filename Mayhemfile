@@ -2,5 +2,4 @@ project: minimap2
 target: minimap2
 
 cmds:
-  - cmd: /repo/minimap2 -c /test.fa /repo/test/q2.fa
-    filepath: /test.fa
+  - cmd: /minimap2 -c @@ /repo/test/q2.fa

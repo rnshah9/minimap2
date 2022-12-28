@@ -1,0 +1,6 @@
+project: minimap2
+target: mm-split-rm-tmp
+
+cmds:
+  - cmd: /fuzz_mm_split_rm_tmp
+    libfuzzer: true
